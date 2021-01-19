@@ -1,12 +1,12 @@
 {
-  "name": "huya-danmu-main",
-  "version": "1.0.1",
-  "description": "仅供学习参考，不能做任何商业用途",
+  "name": "danmu-server",
+  "version": "1.0.2",
+  "description": "danServer",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true,
+  "repository": "https://github.com/Pancts/danmu-server.git",
   "author": "",
   "license": "ISC",
   "dependencies": {
