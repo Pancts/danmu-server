@@ -1,0 +1,21 @@
+{
+  "name": "huya-danmu-main",
+  "version": "1.0.0",
+  "description": "仅供学习参考，不能做任何商业用途",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lvgithub/stick": "^3.1.10",
+    "log4js": "^6.3.0",
+    "md5": "^2.3.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "to-arraybuffer": "^1.0.1",
+    "ws": "^7.4.2"
+  }
+}
