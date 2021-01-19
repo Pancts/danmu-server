@@ -11,7 +11,7 @@ class receiveClient extends client{
         this.url = 'wss://cdnws.api.huya.com';
         this.isLogin = true;
         this.start().then(() => {
-            log.info(this.getInfo()+"创建成功");
+            // log.info(this.getInfo()+"创建成功");
         }, err => {
             log.info(this.getInfo()+"异常退出", err);
             this.exit();

@@ -22,11 +22,11 @@ const startserver = (port) => {
             receive.exit();
             socket = null;
             stick = null;
-            console.log("close");
+            // console.log("close");
         });
         // stick 会解析好一个个数据包，按照接收的顺序输出
         stick.onBody(body => {
-            console.log('body:', body.toString());
+            // console.log('body:', body.toString());
             let data = JSON.parse(body.toString());
             receive = new receiveClient("10002", data.room);
             receive.on("message", msg => {
@@ -38,7 +38,7 @@ const startserver = (port) => {
             });
             receive.on("close", msg => {
                 if (socket){
-                    socket.close();
+                    socket.end();
                 }
             });
         });

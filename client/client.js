@@ -96,7 +96,7 @@ class client extends events{
             if(this.isRun){
                 log.info(this.getInfo()+"线程非正常关闭");
             }else{
-                log.info(this.getInfo()+"线程关闭");
+                // log.info(this.getInfo()+"线程关闭");
             }
             this.isRun = false;
             this.isLogin = false;
