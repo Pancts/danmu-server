@@ -1,6 +1,6 @@
 {
   "name": "huya-danmu-main",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "仅供学习参考，不能做任何商业用途",
   "main": "index.js",
   "scripts": {
